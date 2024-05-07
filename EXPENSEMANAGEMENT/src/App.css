@@ -1,0 +1,25 @@
+body{
+  margin: 0px;
+  background-color: #1f1e1e;
+  color: white;
+  /* overflow: hidden; */
+  text-align: center;
+}
+.icon{
+  font-size: 35px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: yellow;
+}
+.filter{
+  margin-left: 50px;
+  text-align: left;
+  padding: 2px 0px 20px 0p
+}
+.filtericon
+{
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 9px;
+  color: rgb(0,230,122);
+}

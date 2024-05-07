@@ -1,0 +1,53 @@
+.body{
+  background-color: rgb(49, 47, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-left:20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 7px 0px 5px rgb(132, 120, 120);
+    width: 400px;
+}
+h2{
+  
+  margin-right: 0px;
+  color: rgb(0,230,122);
+}
+.expense-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center; /* Optional: Center the cards horizontally */
+  
+}
+.expense-item:hover {
+  color: rgb(0,230,122);
+  
+}
+
+.expense-item-info{
+  width: 150px; /* Adjust width as needed */
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px; /* Margin between cards */
+}
+
+.iconss
+{
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+  font-size: 35px;
+  cursor: pointer;
+  color: rgb(161, 87, 87);
+}
+.iconss:hover{
+  color: red;
+}
+
+
+
+
