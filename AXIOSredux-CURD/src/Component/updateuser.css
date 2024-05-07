@@ -1,0 +1,38 @@
+/* UpdateUser.css */
+.update-user-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.update-user-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.update-user-form label {
+    font-weight: bold;
+}
+
+.update-user-form input[type="text"],
+.update-user-form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.update-user-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-user-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}

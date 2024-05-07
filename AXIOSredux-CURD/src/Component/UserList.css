@@ -1,0 +1,34 @@
+/* UserList.css */
+.user-list-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-list-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns: Name, Email, Actions */
+    font-weight: bold;
+    border-bottom: 2px solid rgb(84, 111, 151);
+    padding: 10px 0;
+  }
+  
+  .user-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns: Name, Email, Actions */
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .user-item-actions {
+      padding-right: 340px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .user-item-actions button {
+    margin-left: 5px;
+  }
+  
